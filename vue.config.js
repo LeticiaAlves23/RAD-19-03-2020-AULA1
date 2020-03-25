@@ -4,7 +4,6 @@ module.exports = {
   ]
 }
 
-
 module.exports = {
   chainWebpack: config => {
     config.plugin('VuetifyLoaderPlugin').tap(args => [{
